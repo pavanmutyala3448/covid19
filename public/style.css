@@ -1,0 +1,71 @@
+body{
+ background:linear-gradient(rgba(11, 220, 228, 0.8),rgba(87, 92, 44, 0.1)),url('https://s.yimg.com/uu/api/res/1.2/pQnbth7ka9HUriPuH1HQzA--~B/aD0xMDgwO3c9MTkyMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/hd/cp-video-transcode/prod/2020-08/14/5e82e65990fe353af7b540fc/5f370e95c485b35f930aea81_o_U_v3.jpg');
+ text-align: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ 
+}
+.box{
+ width:30%;
+ justify-content: center;
+text-align: center;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+left:35%;
+border: 1px solid black;
+margin:10px;
+background-color: #0009;
+
+}
+.box img{
+ margin-top: 10px;
+}
+.cases{
+ color:red;
+ font-weight: 600;
+ font-size: 20px;
+ 
+}
+.recover{
+ color: green;
+ font-weight: 600;
+ font-size: 20px;
+}
+.active{
+ color:orange;
+ font-weight: 600;
+ font-size: 20px;
+}
+label{
+ font-size: 25px;
+ padding: 15px;
+}
+input[type='text']{
+ width: 40%;
+ height: 30px;
+ margin: 30px;
+ border-radius: 20px;
+ border: none;
+ text-align: center;
+ outline: none;
+}
+input[type='text']::first-letter{
+ text-transform: uppercase;
+}
+::placeholder{
+ color:#0005;
+ font-size: 15px;
+}
+input[type='submit']{
+ width:10%;
+ height:40px;
+ border-radius: 20px;
+ border: none;
+ background-color: steelblue;
+ font-size: 20px;
+ color: white;
+ outline: none;
+
+}

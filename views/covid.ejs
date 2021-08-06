@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Covid-19 live stats </h1>
+ <marquee behavior="left" direction="left">Covid-19 live stats</marquee>
+ 
+<% for(var i of info){%>
+ <%if(i.country === country){ %>
+  <div class="box">
+   <img src="<%=i.countryInfo.flag%>" alt="country flags">
+   <h1><%=i.country%></h1>
+   <p class='cases'>Total Cases :<%=i.cases%></p>
+   <p class='recover'>Recovered :<%=i.recovered%></p>
+   <p class='active'> Active Cases :<%=i.active%></p>
+  </div>
+ <%}%>
+<%}%>
+<input
+    action="action"
+    onclick="window.history.go(-1); return false;"
+    type="submit"
+    value="Go Back"
+/>
+  
+</body>
+</html>
